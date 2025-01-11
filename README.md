@@ -51,8 +51,10 @@ Add the following to your `composer.json` file:
         }
     ],
     "require": {
-        "comitidn/routeros-api": "dev-main"
-    }
+        "comitidn/routeros-api": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
 ```
 ### Step 2: Install the package
